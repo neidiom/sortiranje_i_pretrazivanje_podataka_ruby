@@ -25,6 +25,6 @@ def bubble_sort(array)
 end
 
 Benchmark.bm(50) do |x|
-  x.report("bubble_sort([1..10])") { bubble_sort(mali_niz_naizmjenicno_izmijesan) }
-  x.report("bubble_sort([1..10,000])") { bubble_sort(veliki_niz_naizmjenicno_izmijesan) }
+  x.report("bubble_sort(mali_niz_naizmjenicno_izmijesan)") { bubble_sort(mali_niz_naizmjenicno_izmijesan) }
+  x.report("bubble_sort(veliki_niz_naizmjenicno_izmijesan)") { bubble_sort(veliki_niz_naizmjenicno_izmijesan) }
 end
