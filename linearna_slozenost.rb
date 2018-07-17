@@ -14,6 +14,6 @@ mali_niz = (0..1000).to_a
 veliki_niz = (1..10_000_000).to_a
 
 Benchmark.bm(50) do |x|
-  x.report("linear_search(1,000)") { linear_search(mali_niz,1000) }
-  x.report("linear_search(10,000,000)") { linear_search(veliki_niz,1000000) }
+  x.report("linear_search(mali_niz)") { linear_search(mali_niz,1000) }
+  x.report("linear_search(veliki_niz)") { linear_search(veliki_niz,1000000) }
 end
