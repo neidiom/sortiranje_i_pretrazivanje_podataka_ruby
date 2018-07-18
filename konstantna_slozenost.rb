@@ -2,7 +2,7 @@
 
 require 'benchmark'
 
-# Primjer gdje dodajemo postojećem nizu novi član.
+# Primjer gdje pristupamo postojećem nizu novi član.
 # Možemo primjetiti da ma koliko je veliki niz vrijeme koje je potrebno
 # da se doda novi član postojećem nizu je uvijek isti.
 
