@@ -2,7 +2,22 @@
 
 SORTIRANJE I PRETRAŽIVANJE PODATAKA U RUBY PROGRAMSKOM JEZIKU
 
-# EKSPONENCIJALNA SLOŽENOST - O(2n)
+# VREMENSKA SLOZENOST
+
+## KONSTANTNA SLOŽENOST - O(1)
+***vrijeme uvijek isto, nezavisno od unesenih veličina***
+
+## LOGARITAMSKA (PODLINEARNA) SLOŽENOST - O(log n)
+***vrijeme raste sporije od unosa***
+
+## LINERANA SLOŽENOST - O(n)
+***vrijeme raste isto kao unos***
+
+## KVADRATNA SLOŽENOST - O(n2)
+***vrijeme raste unos na kvadrat***
+
+## EKSPONENCIJALNA SLOŽENOST - O(2n)
+***vrijeme raste na stepen unosa***
 
 ## Benchmarking
 
