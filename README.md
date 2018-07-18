@@ -7,9 +7,9 @@ SORTIRANJE I PRETRAŽIVANJE PODATAKA U RUBY PROGRAMSKOM JEZIKU
 * Benchmarking
 
 
-*                   - total (real) CPU in seconds
-* Fibonacci_broja_3  -  0.000008  ( 0.000005)
-* Fibonacci_broja_10 - 0.000017   ( 0.000012)
+                   - total (real) CPU in seconds
+  Fibonacci_broja_3  -  0.000008  ( 0.000005)
+  Fibonacci_broja_10 - 0.000017   ( 0.000012)
 * Fibonacci_broja_15 - 0.000105   ( 0.000114)
 * Fibonacci_broja_20 - 0.000932   ( 0.000938)
 * Fibonacci_broja_25 - 0.010076   ( 0.010077)
