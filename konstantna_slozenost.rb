@@ -2,9 +2,9 @@
 
 require 'benchmark'
 
-# Primjer gdje pristupamo postojećem nizu novi član.
+# Primjer gdje pristupamo prvom članu postojećeg niza .
 # Možemo primjetiti da ma koliko je veliki niz vrijeme koje je potrebno
-# da se doda novi član postojećem nizu je uvijek isti.
+# da se pristupi prvom članu postojećeg niza je uvijek isti.
 
 mali_niz = [1, 2, 3, 4, 5]
 veliki_niz = (1..9_000_000).to_a
